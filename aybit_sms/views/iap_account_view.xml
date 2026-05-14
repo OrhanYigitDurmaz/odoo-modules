@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Extend IAP Account form with SMSOrigin provider fields -->
+    <record id="iap_account_view_form" model="ir.ui.view">
+        <field name="model">iap.account</field>
+        <field name="inherit_id" ref="iap.iap_account_view_form" />
+        <field name="arch" type="xml">
+            <group name="account" position="after">
+                <group
+                    string="SMSOrigin Configuration"
+                    invisible="provider != 'aybit'"
+                >
+                    <field name="aybit_username" />
+                    <field name="aybit_password" password="True" />
+                    <field name="aybit_channel_code" />
+                    <field name="aybit_originator" />
+                    <button
+                        name="action_get_aybit_credit"
+                        string="Check Credit"
+                        type="object"
+                        class="oe_link"
+                    />
+                </group>
+            </group>
+        </field>
+    </record>
+</odoo>

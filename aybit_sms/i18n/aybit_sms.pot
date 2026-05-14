@@ -1,0 +1,86 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* aybit_sms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-14 00:00+0000\n"
+"PO-Revision-Date: 2024-05-14 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: aybit_sms
+#: model:ir.model.fields,field_description:aybit_sms.field_iap_account__aybit_username
+msgid "Username"
+msgstr ""
+
+#. module: aybit_sms
+#: model:ir.model.fields,field_description:aybit_sms.field_iap_account__aybit_password
+msgid "Password"
+msgstr ""
+
+#. module: aybit_sms
+#: model:ir.model.fields,field_description:aybit_sms.field_iap_account__aybit_channel_code
+msgid "Channel Code"
+msgstr ""
+
+#. module: aybit_sms
+#: model:ir.model.fields,field_description:aybit_sms.field_iap_account__aybit_originator
+msgid "Originator"
+msgstr ""
+
+#. module: aybit_sms
+#: model:ir.model.fields.selection,name:aybit_sms.selection__iap_account__provider__aybit
+msgid "SMSOrigin (Aybit)"
+msgstr ""
+
+#. module: aybit_sms
+#: model:ir.model,name:aybit_sms.model_iap_account
+msgid "IAP Account"
+msgstr ""
+
+#. module: aybit_sms
+#: model:ir.model,name:aybit_sms.model_sms_sms
+msgid "SMS"
+msgstr ""
+
+#. module: aybit_sms
+#: model:ir.model.fields,help:aybit_sms.field_iap_account__aybit_originator
+msgid "Sender name/originator. Leave empty to use default from panel."
+msgstr ""
+
+#. module: aybit_sms
+#: code:addons/aybit_sms/models/iap_account.py:0
+#, python-format
+msgid "Username is required for SMSOrigin provider"
+msgstr ""
+
+#. module: aybit_sms
+#: code:addons/aybit_sms/models/iap_account.py:0
+#, python-format
+msgid "Password is required for SMSOrigin provider"
+msgstr ""
+
+#. module: aybit_sms
+#: code:addons/aybit_sms/models/iap_account.py:0
+#, python-format
+msgid "Channel Code is required for SMSOrigin provider"
+msgstr ""
+
+#. module: aybit_sms
+#: code:addons/aybit_sms/models/iap_account.py:0
+#, python-format
+msgid "This action is only available for SMSOrigin provider"
+msgstr ""
+
+#. module: aybit_sms
+#: code:addons/aybit_sms/models/iap_account.py:0
+#, python-format
+msgid "Credit Response: %s"
+msgstr ""
